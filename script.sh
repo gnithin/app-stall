@@ -8,8 +8,8 @@
 #DONE	Add to file
 #DONE	Read from file
 #DONE	Make list of applications
-#Update usage and help
-#Make readme file
+#DONE	Update usage and help
+#DONE	Make readme file
 #Check if already installed
 #Create options for reading files other than apps_list.txt
 #############
@@ -39,7 +39,9 @@ sudo ./script.sh
 You need to use sudo, because installation requires super-user privileges.
 And that's it, all the applications listed in apps_list.txt will be installed.
 
-For instance, This is how it looks like -
+Here is a functioning example -
+
+****************************************************************
 nithin@nithin-Inspiron-1525:~/code/init_script$ sudo ./script.sh 
 [sudo] password for nithin: 
 ***** Installing filezilla *****
@@ -47,6 +49,7 @@ Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
 ...
+****************************************************************
 
 EOL
 }
