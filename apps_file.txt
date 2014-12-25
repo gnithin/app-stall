@@ -1,5 +1,25 @@
-vlc
-xvlc
-#so does this
-bbc
-#this need not be there
+#This file specifies the names of the applications to be installed.
+#The actual name(the one used to install it using apt-get install) is written in a single(with no leading `#` character)
+#The lines beginning with `#` are ignored, details and description need to use it.
+#If you do not want to install an app, just put a `#` before the name.That'll will ignore it.
+
+#vlc media player
+#vlc
+
+#Kodi media player (XBMC)
+#xbmc
+
+#Flash support on browsers
+#flashplugin-installer
+
+#Filezilla(FTP client)
+filezilla
+
+#Java
+#openjdk-7-jdk
+
+#Cheese - webcam software
+cheese
+
+#7-zip
+p7zip-full
