@@ -4,22 +4,25 @@
 #If you do not want to install an app, just put a `#` before the name.That'll will ignore it.
 
 #vlc media player
-#vlc
+vlc
 
 #Kodi media player (XBMC)
-#xbmc
+xbmc
 
 #Flash support on browsers
-#flashplugin-installer
+flashplugin-installer
 
 #Filezilla(FTP client)
 filezilla
 
 #Java
-#openjdk-7-jdk
+openjdk-7-jdk
 
 #Cheese - webcam software
 cheese
 
 #7-zip
 p7zip-full
+
+#vim editor
+vim
